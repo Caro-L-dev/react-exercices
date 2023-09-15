@@ -3,6 +3,11 @@
 📀 Node version: 18.17.1  
 📀 React version: 18.2.15
 
+### Start project:
+
+`npm install`  
+`npm run dev`
+
 ## 1️⃣ The fundamentals of React.
 
 Create a project that includes all these notions:
