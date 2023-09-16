@@ -1,11 +1,11 @@
-import Header from './components/Header/Header';
+import Header from './components/General/Header/Header';
 import FirstModule from './components/FirstModule/FirstModule';
-import Footer from './components/Footer/Footer';
+import Footer from './components/General/Footer/Footer';
 
 function App() {
 
   return (
-    <div className='max-w-fit p-2 mx-auto my-6 border-2 border-rose-600'>
+    <div className='max-w-fit p-2 mx-auto my-6 shadow-md'>
       <Header/>
       <FirstModule />
       <Footer/>

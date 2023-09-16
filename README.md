@@ -18,3 +18,7 @@ Create a project that includes all these notions:
 - Passing Props to a Component.
 - Managing State.
 - Form components.
+
+### First challenge:
+
+Login with a form. When user is connected, then access to tic-tac-toe game.
