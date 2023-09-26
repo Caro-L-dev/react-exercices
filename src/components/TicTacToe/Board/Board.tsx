@@ -5,7 +5,7 @@ export default function Board() {
   const [xIsNext, setXIsNext] = useState(true);
   const [squares, setSquares] = useState(Array(9).fill(null));
 
-  function calculateWinner(squares) {
+  function calculateWinner(squares: string[]) {
     const lines = [
       [0, 1, 2],
       [3, 4, 5],
@@ -38,9 +38,13 @@ export default function Board() {
     const nextSquares = squares.slice();
 
     if (xIsNext) {
-      nextSquares[index] = "X";
+      nextSquares[index] = (
+        <div className="text-2xl font-bold text-blue-500">X</div>
+      );
     } else {
-      nextSquares[index] = "O";
+      nextSquares[index] = (
+        <div className="text-2xl font-bold text-red-500">O</div>
+      );
     }
     setSquares(nextSquares);
     setXIsNext(!xIsNext);
