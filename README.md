@@ -22,3 +22,13 @@ Create a project that includes all these notions:
 ### First challenge:
 
 Login with a form. When user is connected, then access to tic-tac-toe game.
+
+## 2️⃣ Common Design Pattern.
+
+Review these concepts on previous challenge:
+
+- Props functions.
+- HOC: Hight Order Component.
+- Props Drilling.
+- State Hoisting.
+- Lifting State Up.
