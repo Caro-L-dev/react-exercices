@@ -39,3 +39,6 @@ Same idea but with:
 
 - API Call.
 - Handle Errors.
+
+Helper: How setup .env file with Vite?  
+https://www.smashingmagazine.com/2023/05/safest-way-hide-api-keys-react/
