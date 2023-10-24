@@ -42,3 +42,9 @@ Same idea but with:
 
 Helper: How setup .env file with Vite?  
 https://www.smashingmagazine.com/2023/05/safest-way-hide-api-keys-react/
+
+## 4️⃣ Advanced Hooks.
+
+Use:
+
+- useReducer | useContext | useCallback | useMemo
