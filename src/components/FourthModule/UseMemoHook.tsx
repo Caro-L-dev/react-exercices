@@ -15,7 +15,7 @@ export default function UseMemo() {
 
   return (
     <form>
-      <p className="text-gray-500">- useMemo -</p>
+      <p className="text-gray-500 mb-4">- useMemo -</p>
       <div className="flex flex-col my-2">
         <label htmlFor="firstname">Nom d'utilisateur</label>
         <input
