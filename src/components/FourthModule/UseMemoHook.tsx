@@ -4,11 +4,14 @@ export default function UseMemo() {
   // Permet de mémoriser une valeur afin d'optimiser les performances.
   // Pertinent ici, car le calcul ne doit être réalisé seulement lorsque password change.
   // Ne sert pas à grand chose de stocker en mémoire une action qui prend très peu de temps.
+  // Commencer à optimiser lorsque des lenteurs sont constatées, pas avant.
   const [firstname, setFirstname] = useState("Lizzie");
   const [password, setPassword] = useState("MDP");
   const security = useMemo(() => {
     return passwordSecurity(password);
   }, [password]);
+  // Génère un id propre à ce rendu du composant.
+  // console.log(useId());
 
   return (
     <form>
