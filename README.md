@@ -19,13 +19,7 @@ Create a project that includes all these notions:
 - Managing State.
 - Form components.
 
-### First challenge:
-
-Login with a form. When user is connected, then access to tic-tac-toe game.
-
 ## 2️⃣ Common Design Pattern.
-
-Review these concepts on previous challenge:
 
 - Props functions.
 - HOC: Hight Order Component.
@@ -35,8 +29,6 @@ Review these concepts on previous challenge:
 
 ## 3️⃣ Hooks.
 
-Same idea but with:
-
 - API Call.
 - Handle Errors.
 
@@ -44,7 +36,5 @@ Helper: How setup .env file with Vite?
 https://www.smashingmagazine.com/2023/05/safest-way-hide-api-keys-react/
 
 ## 4️⃣ Advanced Hooks.
-
-Use:
 
 - useReducer | useContext | useCallback | useMemo
