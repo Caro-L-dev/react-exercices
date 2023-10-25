@@ -42,14 +42,14 @@ const Weather = () => {
   return (
     <>
       <input
-        className="border border-2 border-indigo-500"
+        className="border border-2 border-indigo-500 rounded-md px-2 py-1"
         type="text"
         placeholder="Entrez une ville"
         value={city}
         onChange={(e) => setCity(e.target.value)}
       />
       {weatherData && (
-        <div>
+        <>
           <h2>
             Météo pour {weatherData.name}, {weatherData.sys.country}
           </h2>
@@ -57,7 +57,7 @@ const Weather = () => {
           <p>Température : {weatherData.main.temp} °C</p>
           <p>Humidité : {weatherData.main.humidity} %</p>
           <p>Pression : {weatherData.main.pressure} hPa</p>
-        </div>
+        </>
       )}
     </>
   );

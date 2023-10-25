@@ -1,18 +1,16 @@
 import Header from "./components/General/Header/Header";
 import FirstModule from "./components/FirstModule/FirstModule";
-import Footer from "./components/General/Footer/Footer";
 import ThirdModule from "./components/ThirdModule/ThirdModule";
+import FourthModule from "./components/FourthModule/FourthModule";
 
 function App() {
   return (
     <>
       <Header />
-      <div className="flex">
-        <div className="max-w-fit p-2 m-5  shadow-md">
-          <FirstModule />
-          <Footer />
-        </div>
+      <div className="flex flex-wrap justify-around">
+        <FirstModule />
         <ThirdModule />
+        <FourthModule />
       </div>
     </>
   );
