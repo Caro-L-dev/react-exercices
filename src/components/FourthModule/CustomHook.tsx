@@ -55,7 +55,7 @@ export default function CustomHook() {
             <div>
               <ul>
                 {data.map((post) => (
-                  <li className="text-left " key={post.id}>
+                  <li className="text-left" key={post.id}>
                     <span>° </span>
                     {post.title}
                   </li>

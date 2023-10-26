@@ -11,7 +11,7 @@ export default function UseReducerHook() {
   } = useTodos();
 
   return (
-    <div className="flex flex-col border-t-2 mt-5 pl-4">
+    <div className="flex flex-col border-l-2 pl-4">
       <h2 className="text-gray-500">- useReducer -</h2>
       <ul className="mb-2">
         {visibleTodos.map((todo) => (

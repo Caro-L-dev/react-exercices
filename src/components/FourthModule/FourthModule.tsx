@@ -1,4 +1,5 @@
 import CustomHook from "./CustomHook";
+import UseContextHook from "./UseContextHook";
 import UseMemoHook from "./UseMemoHook";
 import UseReducerHook from "./UseReducerHook";
 
@@ -10,10 +11,10 @@ export default function FouthModule() {
       <div className="flex justify-around flex-wrap">
         <UseMemoHook />
         <CustomHook />
-      </div>
-      <div className="flex  flex-wrap">
         <UseReducerHook />
+        <UseContextHook />
       </div>
+      <div className="flex  flex-wrap"></div>
     </div>
   );
 }
