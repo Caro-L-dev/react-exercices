@@ -7,10 +7,14 @@ function App() {
   return (
     <>
       <Header />
-      <div className="flex flex-wrap justify-around">
-        <FirstModule />
-        <ThirdModule />
-        <FourthModule />
+      <div className="flex flex-col flex-wrap justify-center">
+        <div className="flex flex-wrap h-full justify-center mx-4">
+          <FirstModule />
+          <ThirdModule />
+        </div>
+        <div className="flex flex-wrap justify-center mt-4">
+          <FourthModule />
+        </div>
       </div>
     </>
   );
